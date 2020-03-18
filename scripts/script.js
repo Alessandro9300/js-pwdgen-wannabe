@@ -12,6 +12,7 @@ var cognomeUtente = prompt("Inserire cognome");
 var coloreUtente = prompt ("Inserire colore preferito");
 var annoUtente = prompt("Inserire il suo anno di nascita")
 
+var firsAllert = alert("Attenzione: la password generata potrebbe non essere sicura al 100%!!")
 
 // creo una variabile che unisca tutti i dati inseriti
 
@@ -19,4 +20,4 @@ var passUtente = nomeUtente + cognomeUtente + coloreUtente + annoUtente;
 
 // creo il comando che mi manda la variabile in output sull html
 
-document.getElementById("passUtente").innerHTML = "La sua password generata automaticamente è: " + passUtente + "";
+document.getElementById("passUtente").innerHTML = "La sua password generata automaticamente è: " + passUtente;
